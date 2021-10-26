@@ -1,0 +1,18 @@
+fire:
+  description: Fire Custom Event
+  fields:
+    event_type:
+      description: Event Type
+      required: true
+      advanced: false
+      example: test_event
+      selector:
+        text:
+          multiline: false
+    event_data:
+      description: Event Data
+      required: false
+      advanced: false
+      example: '{"attribute1": 1, "attribute2": "test"}'
+      selector:
+        object:
